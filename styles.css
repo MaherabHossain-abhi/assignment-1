@@ -301,10 +301,12 @@ li {
 
 
 .sponsors-container {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 60px auto;
     padding: 20px;
     text-align: center;
+    background-color: #f9fafb;
+
 }
 
 .s-title {
@@ -385,6 +387,122 @@ li {
     font-size: 1.05rem;
 }
 
+
+.venue-container {
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 0 20px;
+}
+.venue-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background: #f9fafb;
+    border: 1px solid #f3f4f6;
+    border-radius: 16px;
+}
+.venue-img iframe {
+    width: 100% ;
+    height: 100% ;
+    min-height: 400px;
+    border: none;
+    display: block;
+}
+.venue-details {
+    padding: 60px 40px;
+}
+.venue-details h2 {
+    font-size: 2rem;
+    margin-bottom: 24px;
+    font-weight: 800;
+}
+.venue-details p {
+    margin-bottom: 12px;
+    color: #4b5563;
+    font-size: 1.1rem;
+}
+.venue-btn {
+    margin-top: 24px;
+    padding: 12px 32px;
+    background: transparent;
+    border: 2px solid #d1d5db;
+    color: #2563eb;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: background 0.3s, color 0.3s;
+}
+.venue-btn:hover {
+    background: #1d4ed8;
+    color: white;
+}
+
+.news-wrap {
+    background-color: #f3f4f6;
+    width: 100%;
+    padding: 80px 20px;
+}
+
+.news-box {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.news-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 16px;
+}
+
+.news-subtitle {
+    font-size: 1.05rem;
+    color: #111827;
+    line-height: 1.6;
+    margin-bottom: 32px;
+}
+
+.news-form {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+}
+
+.news-input {
+    flex: 1;
+    padding: 16px 20px;
+    border-radius: 8px;
+    border: 1px solid #334155;
+    background-color: #111827;
+    color: #ffffff;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.news-input:focus {
+    border-color: #2563eb;
+}
+
+.news-btn {
+    padding: 16px 32px;
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    white-space: nowrap;
+}
+
+.news-btn:hover {
+    background-color: #1d4ed8;
+}
+
+
+
 .footer-sec {
     background-color: #0f172a;
     width: 100%;
@@ -412,8 +530,6 @@ li {
 .footer-links {
     display: flex;
     gap: 10px;
-    padding: 0;
-    margin: 0;
 }
 
 .footer-links a {
@@ -444,8 +560,6 @@ li {
 .footer-bottom-links {
     display: flex;
     gap: 10px;
-    padding: 0;
-    margin: 0;
 }
 .footer-bottom-links a {
     color: #4b5563;
