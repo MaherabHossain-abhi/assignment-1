@@ -30,6 +30,10 @@ ul {
     list-style: none;
 }
 
+li {
+    list-style: none;
+}
+
 .nav-links {
     display: flex;
     gap: 32px;
@@ -114,6 +118,7 @@ ul {
     font-size: 2.5rem;
     font-weight: 800;
     margin-bottom: 40px;
+    color: #0f172a;
 }
 
 .speakers-box {
@@ -173,6 +178,7 @@ ul {
     text-align: center;
     font-size: 2.5rem;
     font-weight: 800;
+    color: #0f172a;
     margin-bottom: 8px;
 }
 
@@ -293,14 +299,47 @@ ul {
     background-color: #2563eb;
 }
 
-.ai {
+
+.sponsors-container {
     max-width: 1200px;
-    margin: 80px auto;
-    padding: 200px;
+    margin: 60px auto;
+    padding: 20px;
     text-align: center;
-    background-color: #dddede;
-    border: #a9abb0;
-    font-size: 4rem;
+}
+
+.s-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #0f172a;
+    font-weight: 800;
+    margin-bottom: 18px;
+}
+
+.s-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+
+.s-item {
+    display: flex;
+    align-items: center;
+    gap: 12px; 
+
+}
+
+.s-item img {
+    height: 30px;
+    width: auto;
+    object-fit: contain;
+}
+
+.s-item span {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: var(--text-dark);
 }
 
 .footer-box {
