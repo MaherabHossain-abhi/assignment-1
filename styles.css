@@ -384,11 +384,15 @@ li {
     line-height: 1.7;
     font-size: 1.05rem;
 }
+
+.footer-sec {
+    background-color: #0f172a;
+    width: 100%;
+}
 .footer-box {
     padding: 20px 10px;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: #0f172a;
     color: ffffff;
 
 
@@ -418,12 +422,6 @@ li {
     font-size: 0.85rem;
 }
 
-.footer-divider {
-    border: 0;
-    height: 1px;
-    background-color: #334155;
-    margin: 20px 0;
-}
 
 .footer-divider {
     border: 0;
